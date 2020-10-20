@@ -16,7 +16,7 @@
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0c744cb901.js" crossorigin="anonymous"></script>
    
   </head>
@@ -176,7 +176,7 @@ if(isset($_POST['submit'])){
                 <div class="bg_grid"><img src="../images/AlShifa.png" class="about-img"></div>
                 <div class="box_content">
                   <a href="booking.html"><h3><?php echo $data['hosname'];  ?></h3></a>
-                  <p>Lorem ipsum dolor sit amet</p>
+                  <p>Hawally</p>
                 </div>
               </div>
           </div>

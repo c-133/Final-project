@@ -13,7 +13,7 @@
 
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/0c744cb901.js" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -94,16 +94,26 @@ input {
             <a href="https://www.instagram.com/barmej/"target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.youtube.com/c/Barmej"target="_blank"><i class="fab fa-youtube"></i></a>
           </div>
-          <p class="rights-text">© 2020 Created By Ahmad Abul All Rights Reserved.</p>
+          <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="/images/barmej.png" alt="" class="logo">
+          <div class="social-media">
+            <a href="https://www.facebook.com/barmej"target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/barmej"target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/barmej/"target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/c/Barmej"target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+          <p class="rights-text">© 2020 صمم بواسطة أحمد أبل كل الحقوق محفوظه.</p>
         </div>
 
         <div class="right-col">
-          <h1>Our Newsletter</h1>
+          <h1>جريدتنا</h1>
           <div class="border"></div>
-          <p>Enter Your Email to get our news and updates.</p>
+          <p>ضع البريد الالكتروني لتصلك اخر التطورات والتحديثات</p>
           <form action="" class="newsletter-form">
-            <input type="text" class="txtb" placeholder="Enter Your Email">
-            <input type="submit" class="btn1" value="submit">
+            <input type="text" class="txtb" placeholder="ضع البريد الالكتروني">
+            <input type="submit" class="btn" value="تأكيد">
           </form>
         </div>
       </div>
