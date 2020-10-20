@@ -1,0 +1,39 @@
+
+<?php
+if(isset($_POST['submit'])){
+    
+    include('../dbcon.php');
+    
+    $rolno = $_POST['rolno'];
+    $name = $_POST['name'];
+    $city = $_POST['city'];
+    $pcont = $_POST['pcont'];
+    $std = $_POST['std'];
+    $imagename = $_FILES['simg']['name'];   //for storing name 
+    $tempimgname = $_FILES['simg']['tmp_name'];   //for storing temporary name 
+    
+    move_uploaded_file($tempimgname,"../dataimg/$imagename");
+    
+    $qry ="INSERT INTO `student`(`id`, `rollno`, `name`, `city`, `pcont`, `standard` ,`image`) VALUES (NULL,'$rolno','$name','$city','$pcont','$std','$imagename')";
+    
+    $run = mysqli_query($con, $qry);
+    
+    if($run==true){
+        ?>
+        
+        <script>alert("data added successfully");</script>
+        <?php
+        
+    }
+        
+}
+?>
+
+
+$cida=$_post['fullname'];
+$docdate = $_POST['docdate'];
+$docid = $_SESSION['currdoc'];
+$hosid = $_SESSION['currhos'];
+
+$strSQL = 'INSERT INTO APPOINTMENT(AID, HOSPITALID, DOCTORID, CUSTOMERNAME, DOCTORDATE) '.
+          'VALUES(oid.nextval, :hosid1, :docid1, :num, :docdate1)';

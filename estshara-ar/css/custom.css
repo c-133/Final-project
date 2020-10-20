@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  margin-top: 80px;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
+}
+.about .about-text .about-button {
+  bottom: 15px;
+}
+.about-button.mx-auto a {
+  padding: 5px 22px;
+}
+.navbar-brand {
+  margin: 0px;
+}
+.service_box {
+  position: relative;
+}
+.bg_grid img {
+  width: 100%;
+  object-fit: cover;
+}
+.box_content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 555;
+}
+.bg_grid {
+  position: relative;
+  overflow: hidden;
+}
+.bg_grid img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+}
+.service_box {
+  width: 100%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.service_box:hover {
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+.service_box:hover .bg_grid img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.service_box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(17, 219, 207, 0.8);
+}
+.box_content a {
+  color: #007bff;
+  text-decoration: none;
+}
+.box_content a h3 {
+  font-weight: bold;
+  font-weight: 22px;
+}
+.box_content p {
+  color: #fff;
+  font-size: 18px;
+}
+.service.shadow .btn.btn-color.btn-lg {
+  padding: 1px 15px;
+  margin-left: 8px;
+}
+#doctime {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+}
